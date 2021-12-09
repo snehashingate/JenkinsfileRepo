@@ -1,4 +1,3 @@
-cat README.txt
 pipeline {
     agent any
     stages {
