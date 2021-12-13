@@ -4,7 +4,7 @@ pipeline {
         stage ('Hello world') {
             steps {
                 
-                println "Hello World!!"       
+                println "Hello World...!!"       
                 
             }
         }
