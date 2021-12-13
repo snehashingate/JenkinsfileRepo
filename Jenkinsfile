@@ -1,12 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ('Git clone') {
+        stage ('Hello world') {
             steps {
-                
-                dir ('testRepo') {
-                    git url: "https://github.com/snehashingate/JenkinsfileRepo.git",
-                        branch: "main"
+                println "Hello World!!"       
                 }
             }
         }
